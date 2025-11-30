@@ -2,7 +2,7 @@
 
 _The Battle for the Streets: Uncovering the Informal Economy of Soft Drinks_
 
- ![](https://github.com/hamadkamorudeen/Alimosho-Soft-Drink-Analysis/blob/main/Alimosho.jpg)
+ ![](https://github.com/hamadkamorudeen/Alimosho-Soft-Drink-Analysis/blob/main/Alimosho_Dashboard.png)
 
  ## 📖 Project Overview
 
