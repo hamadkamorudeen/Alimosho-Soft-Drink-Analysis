@@ -2,6 +2,8 @@
 
 _The Battle for the Streets: Uncovering the Informal Economy of Soft Drinks_
 
+ ![](https://github.com/hamadkamorudeen/Alimosho-Soft-Drink-Analysis/blob/main/Alimosho.jpg)
+
  ## 📖 Project Overview
 
 The Soft Drink Market Insight Challenge focused on analyzing real-world survey data from Alimosho Local Government Area, Lagos. The goal was to explore soft drink availability, packaging trends, and outlet distribution to uncover the "ground reality" of the market.
@@ -33,6 +35,7 @@ _1. Data Acquisition & Loading_
 - Technique Used: Loaded data using header=1 in Pandas to correctly align column names.
 
 - Result: Successfully indexed 1,500 rows of data.
+  
 
 _2. Data Cleaning_
 
@@ -47,6 +50,7 @@ Missing Values (Nulls):
 -  Duplicate Check: Verified that the dataset contained 0 duplicate records to ensure analysis accuracy.
 
 - Column Drop: Removed the S/N (Serial Number) column as it provided no analytical value.
+  
 
 _3. Exploratory Data Analysis (EDA)_
 
@@ -61,6 +65,7 @@ I focused on five key metrics to tell the story of the market:
 -  Stock Levels: Analysis of supply chain efficiency.
 
 - Geospatial Analysis: Mapping outlets by location.
+  
 
 ## 📊 Key Findings & Visualizations
 
@@ -68,27 +73,36 @@ I focused on five key metrics to tell the story of the market:
 
 While Coca-Cola (1,028 outlets) and Pepsi (977 outlets) dominate the market, the data revealed a shocking contender. American Cola secured the #4 spot, surpassing established legacy brands like 7Up. This indicates a shift toward value-driven challenger brands.
 
-(See full dashboard for detailed visualization below)
+ ![](https://github.com/hamadkamorudeen/Alimosho-Soft-Drink-Analysis/blob/main/Market%20Dominance%20-%20Most%20Available%20Soft%20Drink%20Brands.png)
+
 
 ### 2. The Informal Economy Rules
 
 Contrary to modern retail expectations, 86% of soft drinks in Alimosho are sold in small, informal Shops. Supermarkets and modern trade outlets are statistically negligible.
 
+![](https://github.com/hamadkamorudeen/Alimosho-Soft-Drink-Analysis/blob/main/Distribution%20of%20Outlet%20Types.png)
+
 Insight: Brands focusing on supermarket shelf space are missing the actual battlefield.
+
 
 ### 3. Packaging: The Reign of PET
 
-76% of all available products are PET (Plastic) bottles.
+_76% of all available products are PET (Plastic) bottles._
 
-Glass: 20%
+- Glass: 20%
 
-Cans: Only 3%
+- Cans: Only 3%
+
+![](https://github.com/hamadkamorudeen/Alimosho-Soft-Drink-Analysis/blob/main/Consumer%20Preference-%20Package%20Types.png)
 
 Insight: The Alimosho consumer demands portability and resealability. Cans are likely viewed as a premium luxury rather than a daily staple.
+
 
 ### 4. The Supply Chain Gap
 
 Only 39% of shops are "Well Stocked." A staggering 43% are "Partially Stocked."
+
+![](https://github.com/hamadkamorudeen/Alimosho-Soft-Drink-Analysis/blob/main/Stock%20Condition%20Overview.png)
 
 Insight: There is a massive "Stock Gap." Brands that can optimize last-mile logistics to these small shops will capture significant market share from competitors who are out of stock.
 
